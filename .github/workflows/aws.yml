@@ -42,8 +42,8 @@ on:
 #                                                # containerDefinitions section of your task definition
 
 env:
-  AWS_REGION: us-east-2                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: eri-front-ecr          # set this to your Amazon ECR repository name
+  AWS_REGION: us-west-2                  # set this to your preferred AWS region, e.g. us-west-1
+  ECR_REPOSITORY: vf-da-dev-erica-vmpt-frontend          # set this to your Amazon ECR repository name
   ECS_SERVICE: vf-da-eri-vmpt-frontend-svc                 # set this to your Amazon ECS service name
   ECS_CLUSTER: vf-da-eri-vmpt-ecs                  # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: task-definition2.json # set this to the path to your Amazon ECS task definition
